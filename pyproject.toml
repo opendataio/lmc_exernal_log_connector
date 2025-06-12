@@ -1,0 +1,17 @@
+[project]
+name = "external-log-connector"
+version = "0.1.1"
+description = "A logging-enhanced RemoteConnector similar to BlackholeConnector"
+readme = "README.md"
+authors = [
+  { name = "Baoloongmao", email = "baoloongmao@tencent.com" }
+]
+license = { text = "Apache-2.0" }
+requires-python = ">=3.8"
+dependencies = [
+  "lmcache>=0.1.0",  # Dependency for your lmcache version (adjust as needed)
+]
+
+[build-system]
+requires = ["build>=0.10.0", "setuptools>=61.0"]  # Adjust version numbers as needed
+build-backend = "setuptools.build_meta"

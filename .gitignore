@@ -1,0 +1,6 @@
+token
+dist
+build
+*.egg-info
+.idea
+.vscode
