@@ -1,6 +1,6 @@
 [project]
 name = "external-log-connector"
-version = "0.1.1"
+version = "0.1.2"
 description = "A logging-enhanced RemoteConnector similar to BlackholeConnector"
 readme = "README.md"
 authors = [
